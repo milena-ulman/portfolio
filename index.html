@@ -2,29 +2,51 @@
 <html>
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="colors.css" />
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="style.css" />
+
     <link
-      href="https://fonts.googleapis.com/css?family=Concert+One&display=swap"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
     <title>Milena Ulman Portfolio</title>
   </head>
   <body>
     <main class="main-section">
-      <nav class="navigation">
-        <div class="navigation__menu">
+      <nav class="navigation d-flex justify-content-end">
+        <div class="navigation__menu d-flex align-items-center">
           <p class="navigation__menu-item">Navigation</p>
           <p class="navigation__menu-item">Navigation</p>
           <p class="navigation__menu-item">Navigation</p>
           <p class="navigation__menu-item">Navigation</p>
         </div>
-        <div class="navigation__logo-container">
-          <svg class="navigation__logo"></svg>
-        </div>
+        <div class="navigation__logo-container"></div>
       </nav>
+      <div
+        class="container container-text d-flex justify-content-center align-items-start flex-column"
+      >
+        <h2 class="second-text">Milena Ulman</h2>
+        <h1 class="main-text">UX/UI</h1>
+        <h1 class="main-text">Designer</h1>
+        <h2 class="second-text">Creating things with passion :)</h2>
+      </div>
+
+      <img src="background_img.svg" class="d-none d-md-block background-img" />
+      <img class="big-leave_top" src="leave_top.svg" />
+      <img src="leave-group_top.svg" class="group_top" />
+      <img class="big-leave_down" src="leave_down.svg" />
+      <img class="leave-group_down" src="group_down.svg" />
     </main>
   </body>
 </html>
