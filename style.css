@@ -1,57 +1,77 @@
 * {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-  overflow-y: hidden;
+
   font-size: 16px;
 }
-main {
+header {
   width: 100%;
   height: 100vh;
-  position: absolute;
-  z-index: -2;
-  background: var(--main-bg-color);
 }
 .navigation {
   height: 60px;
   background: transparent;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10000000;
 }
 .navigation__menu {
   margin-left: 50px;
 }
+.navigation__logo-container {
+  position: fixed;
+  top: 0;
+  left: 30px;
+}
+.navigation__logo-container img {
+  width: 70px;
+}
 .navigation__menu-item {
-  margin: 0 50px 0 15px;
+  margin: 0 30px 0 15px;
   font-size: 0.95em;
   color: var(--second-text-color);
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
   font-weight: 900;
-  transition: color 0.3s;
+  transition: all 0.5s ease-in;
+  position: relative;
+  z-index: 1000000;
+  padding: 10px 5px;
+  cursor: pointer;
 }
 .navigation__menu-item:hover {
+  text-decoration: none;
   color: var(--main-shadow-text);
 }
+.menu-toggle {
+  color: black;
+  width: 40px;
+  cursor: pointer;
+}
+
 .container-text {
-  z-index: 1000;
+  z-index: 10;
   height: 100%;
-  margin-top: -50px;
+  padding-top: -50px;
+  position: relative;
+  animation: text-show 1s ease-in;
 }
 .main-text {
-  font-size: 4.4em;
+  font-size: 3.4em;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: var(--main-text-color);
   font-weight: 600;
   font-family: "Lato", sans-serif;
-  line-height: 120px;
-  padding-left: 70px;
+  line-height: 100px;
 }
 .second-text {
   color: var(--second-text-color);
   text-transform: uppercase;
   font-size: 1.5em;
   letter-spacing: 1.5px;
-  margin-left: 50px;
   line-height: 35px;
 }
 .background-img {
@@ -60,30 +80,52 @@ main {
   right: 0;
   width: auto;
   height: 100vh;
-  z-index: -1;
+  z-index: 1;
 }
 .big-leave_top {
   position: absolute;
   top: 0;
-  z-index: -2;
+  z-index: 1;
   width: 200px;
 }
+
 .group_top {
   position: absolute;
   top: 0;
-  z-index: -1;
+  z-index: 1;
 }
 .big-leave_down {
   position: absolute;
   bottom: 0;
-  z-index: -2;
+  z-index: 1;
   width: 300px;
 }
 .leave-group_down {
   position: absolute;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
+  transform-origin: bottom;
 }
 .container-left {
   padding-left: 50px;
+}
+
+.section-title {
+  padding-top: 80px;
+}
+.section-about {
+  background: lightblue;
+  padding-bottom: 80px;
+}
+.description-text {
+  padding-top: 50px;
+}
+@keyframes text-show {
+  0% {
+    opacity: 0.1;
+    margin-left: 100px;
+  }
+  to {
+    opacity: 1;
+  }
 }

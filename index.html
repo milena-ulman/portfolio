@@ -3,12 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="colors.css" />
     <link rel="stylesheet" href="global.css" />
     <link rel="stylesheet" href="style.css" />
-
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap"
       rel="stylesheet"
@@ -23,18 +22,41 @@
     <title>Milena Ulman Portfolio</title>
   </head>
   <body>
-    <main class="main-section">
-      <nav class="navigation d-flex justify-content-end">
+    <header class="main-section">
+      <nav class="navigation d-flex">
         <div class="navigation__menu d-flex align-items-center">
-          <p class="navigation__menu-item">Navigation</p>
-          <p class="navigation__menu-item">Navigation</p>
-          <p class="navigation__menu-item">Navigation</p>
-          <p class="navigation__menu-item">Navigation</p>
+          <p>
+            <a href="#about" class="navigation__menu-item d-none d-md-block"
+              >About me</a
+            >
+          </p>
+          <p>
+            <a href="#skills" class="navigation__menu-item d-none d-md-block"
+              >My skills</a
+            >
+          </p>
+          <p>
+            <a href="nav" class="navigation__menu-item d-none d-md-block"
+              >Navigation</a
+            >
+          </p>
+          <p>
+            <a href="nav1" class="navigation__menu-item d-none d-md-block"
+              >Navigation</a
+            >
+          </p>
+          <div class="navigation__logo-container">
+            <img src="logo.svg" />
+          </div>
+          <img
+            src="https://cdn0.iconfinder.com/data/icons/user-interface-150/24/List_menu_toggle-512.png"
+            class="menu-toggle d-block d-md-none"
+          />
         </div>
-        <div class="navigation__logo-container"></div>
       </nav>
+
       <div
-        class="container container-text d-flex justify-content-center align-items-start flex-column"
+        class="container container-text d-flex justify-content-center align-items-start flex-column col-8 offset-2"
       >
         <h2 class="second-text">Milena Ulman</h2>
         <h1 class="main-text">UX/UI</h1>
@@ -47,6 +69,38 @@
       <img src="leave-group_top.svg" class="group_top" />
       <img class="big-leave_down" src="leave_down.svg" />
       <img class="leave-group_down" src="group_down.svg" />
-    </main>
+    </header>
+    <div class="section d-block  d-sm-flex">
+      <div id="about" class="section-about col-12 col-sm-6 col-sm-4">
+        <h1 class="section-title text-center">About me</h1>
+        <div class="container description-text col-8">
+          <p>
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur."
+          </p>
+          <p>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+          <p>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo.
+          </p>
+        </div>
+      </div>
+
+      <div id="skills" class="section col-12 col-sm-6">
+        <h1 class="section-title text-center">My skills</h1>
+      </div>
+    </div>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>
   </body>
 </html>
