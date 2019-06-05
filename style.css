@@ -114,8 +114,8 @@ header {
   padding-top: 80px;
 }
 .section-about {
-  background: lightblue;
   padding-bottom: 80px;
+  background: #888;
 }
 .description-text {
   padding-top: 50px;
@@ -128,4 +128,16 @@ header {
   to {
     opacity: 1;
   }
+}
+.container__skills {
+  margin-top: 100px;
+}
+.container__skills-text {
+  margin-top: 30px;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+.conatiner__skills-img {
+  width: 150px;
+  height: 150px;
 }
