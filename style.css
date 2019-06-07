@@ -134,15 +134,15 @@ header {
 }
 .skill__desc > p {
   margin: 30px 0 80px 0;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: 500;
 }
 .skill__desc > img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
 }
 .skill__rate > svg {
-  width: 20px;
-  height: 30px;
+  width: 15px;
+  height: 25px;
   margin-left: 30px;
 }
