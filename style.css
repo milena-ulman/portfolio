@@ -82,7 +82,7 @@ header {
   height: 100vh;
   z-index: 1;
 }
-.big-leave_top {
+.big-leaf_top {
   position: absolute;
   top: 0;
   z-index: 1;
@@ -94,13 +94,13 @@ header {
   top: 0;
   z-index: 1;
 }
-.big-leave_down {
+.big-leaf_down {
   position: absolute;
   bottom: 0;
   z-index: 1;
   width: 300px;
 }
-.leave-group_down {
+.leaf-group_down {
   position: absolute;
   bottom: 0;
   z-index: 1;
