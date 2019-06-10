@@ -146,3 +146,8 @@ header {
   height: 25px;
   margin-left: 30px;
 }
+.skill__rate > img {
+  width: 15px;
+  height: 25px;
+  margin-left: 30px;
+}
