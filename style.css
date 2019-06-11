@@ -120,6 +120,10 @@ header {
 .description-text {
   padding-top: 50px;
 }
+.description-text > img {
+  width: 250px;
+  height: 250px;
+}
 @keyframes text-show {
   0% {
     opacity: 0.1;
