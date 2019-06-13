@@ -23,35 +23,16 @@
   </head>
   <body>
     <header class="main-section">
-      <nav class="navigation d-flex">
-        <div class="navigation__menu d-flex align-items-center">
-          <p>
-            <a href="#mu-about" class="navigation__menu-item d-none d-md-block"
-              >About me</a
-            >
-          </p>
-          <p>
-            <a href="#mu-skills" class="navigation__menu-item d-none d-md-block"
-              >My skills</a
-            >
-          </p>
-          <p>
-            <a href="nav" class="navigation__menu-item d-none d-md-block"
-              >Navigation</a
-            >
-          </p>
-          <p>
-            <a href="nav1" class="navigation__menu-item d-none d-md-block"
-              >Navigation</a
-            >
-          </p>
-          <div class="navigation__logo-container">
-            <img src="logo.svg" />
-          </div>
-          <img
-            src="https://cdn0.iconfinder.com/data/icons/user-interface-150/24/List_menu_toggle-512.png"
-            class="menu-toggle d-block d-md-none"
-          />
+      <nav class="navigation d-flex justify-content-between align-items-center">
+        <div class="navigation__logo">
+          <img src="logo.svg" />
+        </div>
+        <div class="navigation__menu d-none d-md-block">
+          <a href="#mu-about" class="navigation__menu-item">About me</a>
+          <a href="#mu-skills" class="navigation__menu-item">Skills</a>
+        </div>
+        <div class="navigation__menu-toggle d-block d-md-none">
+          <img src="menu_toggle.svg" />
         </div>
       </nav>
 
@@ -73,35 +54,19 @@
     <div class="section d-block  d-sm-flex">
       <div id="mu-about" class="section-about">
         <h1 class="section-title text-center">About me</h1>
-        <div class="container description-text col-8">
-          <img src="learning_mu.svg" />
-          <img src="creating_mu.svg" />
-          <img src="listening_mu.svg" />
-          <img src="kindness_mu.svg" />
-          <img src="amibition_mu.svg" />
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur."
-          </p>
-          <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
-          <p>
-            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo.
-          </p>
+        <div class="container  description-text">
+          <div
+            class="container d-flex  justify-content-around align-items-center"
+          >
+            <img src="learning_mu.svg" />
+          
+          <div>
+            <h1>placeholder</h1>
+          </div>
         </div>
       </div>
     </div>
+
     <div id="mu-skills" class="section">
       <h1 class="section-title text-center">My skills</h1>
 

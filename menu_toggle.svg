@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="13.229167mm"
-   height="11.11252mm"
-   viewBox="0 0 13.229167 11.11252"
+   width="6.385879mm"
+   height="5.2330647mm"
+   viewBox="0 0 6.385879 5.2330648"
    version="1.1"
    id="svg3560"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="37.434317"
-     inkscape:cy="-3.7540639"
+     inkscape:zoom="5.6"
+     inkscape:cx="-2.5450202"
+     inkscape:cy="1.365309"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -52,30 +52,30 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(55.486478,-214.44157)">
+     transform="translate(55.476067,-220.31061)">
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.02082295;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00994506;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect4105"
-       width="13.208344"
-       height="2.6847148"
+       width="6.385879"
+       height="1.2666494"
        x="-55.476067"
-       y="214.45198"
-       ry="1.3423574" />
+       y="220.31061"
+       ry="0.63332468" />
     <rect
-       ry="1.3423574"
-       y="218.65547"
+       ry="0.63332468"
+       y="222.29382"
        x="-55.476067"
-       height="2.6847148"
-       width="13.208344"
+       height="1.2666494"
+       width="6.385879"
        id="rect4116"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.02082295;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00994506;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke" />
     <rect
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-width:0.02082295;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.00994506;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect4118"
-       width="13.208344"
-       height="2.6847148"
+       width="6.385879"
+       height="1.2666494"
        x="-55.476067"
-       y="222.85896"
-       ry="1.3423574" />
+       y="224.27702"
+       ry="0.63332468" />
   </g>
 </svg>

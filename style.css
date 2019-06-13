@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
-
   font-size: 16px;
 }
 header {
@@ -9,25 +8,25 @@ header {
   height: 100vh;
 }
 .navigation {
-  height: 60px;
-  background: transparent;
+  background: #888;
   position: fixed;
-  top: 0;
-  right: 0;
-  z-index: 10000000;
+  width: 100vw;
+  z-index: 100000;
 }
-.navigation__menu {
-  margin-left: 50px;
+
+.navigation__logo > img {
+  width: 50px;
+  height: 50px;
+  margin-left: 30px;
 }
-.navigation__logo-container {
-  position: fixed;
-  top: 0;
-  left: 30px;
+.navigation__menu-toggle > img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 40px;
 }
-.navigation__logo-container img {
-  width: 70px;
-}
-.navigation__menu-item {
+
+.navigation__menu > a {
   margin: 0 30px 0 15px;
   font-size: 0.95em;
   color: var(--second-text-color);
@@ -36,21 +35,12 @@ header {
   letter-spacing: 1px;
   font-weight: 900;
   transition: all 0.5s ease-in;
-  position: relative;
-  z-index: 1000000;
-  padding: 10px 5px;
   cursor: pointer;
 }
 .navigation__menu-item:hover {
   text-decoration: none;
   color: var(--main-shadow-text);
 }
-.menu-toggle {
-  color: black;
-  width: 40px;
-  cursor: pointer;
-}
-
 .container-text {
   z-index: 10;
   height: 100%;
@@ -80,18 +70,16 @@ header {
   right: 0;
   width: auto;
   height: 100vh;
-  z-index: 1;
 }
 .big-leaf_top {
   position: absolute;
-  top: 0;
+  top: 50px;
   z-index: 1;
   width: 200px;
 }
-
 .group_top {
   position: absolute;
-  top: 0;
+  top: 50px;
   z-index: 1;
 }
 .big-leaf_down {
@@ -116,13 +104,14 @@ header {
 .section-about {
   padding-bottom: 80px;
   background: #888;
+  width: 100vw;
 }
-.description-text {
+.description-container {
   padding-top: 50px;
 }
-.description-text > img {
-  width: 250px;
-  height: 250px;
+
+.description-text > .row {
+  margin-top: 50px;
 }
 @keyframes text-show {
   0% {
