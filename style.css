@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 header {
@@ -8,12 +8,18 @@ header {
   height: 100vh;
 }
 .navigation {
-  background: #888;
+  background: white;
   position: fixed;
   width: 100vw;
   z-index: 100000;
+  -webkit-box-shadow: 0px 1px 6px 1px rgba(35, 47, 52, 1);
+  -moz-box-shadow: 0px 1px 6px 1px rgba(35, 47, 52, 1);
+  box-shadow: 0px 1px 6px 1px rgba(35, 47, 52, 1);
 }
-
+.navigation--dark {
+  background: #888;
+  scale: 0.5;
+}
 .navigation__logo > img {
   width: 50px;
   height: 50px;
@@ -25,44 +31,43 @@ header {
   cursor: pointer;
   margin-right: 40px;
 }
-
 .navigation__menu > a {
   margin: 0 30px 0 15px;
-  font-size: 0.95em;
+  font-size: 20px;
   color: var(--second-text-color);
-  text-transform: uppercase;
-  font-weight: 400;
-  letter-spacing: 1px;
-  font-weight: 900;
+  letter-spacing: 0.1px;
+  font-weight: 500;
   transition: all 0.5s ease-in;
   cursor: pointer;
 }
 .navigation__menu-item:hover {
   text-decoration: none;
-  color: var(--main-shadow-text);
+  color: #ef6c00;
 }
 .container-text {
   z-index: 10;
   height: 100%;
-  padding-top: -50px;
-  position: relative;
   animation: text-show 1s ease-in;
+  position: relative;
+  padding-top: 40px;
 }
 .main-text {
-  font-size: 3.4em;
+  font-size: 80px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: -1.5px;
   color: var(--main-text-color);
-  font-weight: 600;
-  font-family: "Lato", sans-serif;
-  line-height: 100px;
+  font-weight: 400;
+  line-height: 80px;
+  font-family: "Shrikhand", cursive;
+  margin: 25px;
 }
 .second-text {
   color: var(--second-text-color);
-  text-transform: uppercase;
-  font-size: 1.5em;
-  letter-spacing: 1.5px;
-  line-height: 35px;
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  font-weight: 400;
+  padding-left: 20px;
 }
 .background-img {
   position: absolute;
@@ -100,18 +105,39 @@ header {
 
 .section-title {
   padding-top: 80px;
+  font-size: 48px;
+  color: var(--second-text-color);
+  font-family: "Shrikhand", cursive;
+  line-height: 48px;
+  font-weight: 400;
+  letter-spacing: 0px;
 }
 .section-about {
   padding-bottom: 80px;
-  background: #888;
-  width: 100vw;
+  width: 100%;
 }
 .description-container {
   padding-top: 50px;
 }
-
-.description-text > .row {
-  margin-top: 50px;
+.description-graphic {
+  margin-top: 80px;
+}
+.description-graphic_container {
+  padding: 15px 0;
+  margin: 20px 0;
+  -webkit-box-shadow: 0px 3px 10px 2px #888;
+  -moz-box-shadow: 0px 3px 10px 2px #888;
+  box-shadow: 0px 3px 10px 2px #888;
+}
+.description-graphic_text {
+  margin: 20px 0 0 35px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+.description_img {
+  width: 220px;
+  height: 220px;
 }
 @keyframes text-show {
   0% {
@@ -127,8 +153,9 @@ header {
 }
 .skill__desc > p {
   margin: 30px 0 80px 0;
-  font-size: 1.3em;
+  font-size: 14px;
   font-weight: 500;
+  letter-spacing: 0.1px;
 }
 .skill__desc > img {
   width: 120px;
