@@ -2,8 +2,8 @@ const navigation = $(".navigation");
 
 $(window).scroll(function() {
   if ($(window).scrollTop() > 1) {
-    navigation.addClass("navigation--dark");
+    navigation.addClass("navigation--bright");
   } else {
-    navigation.removeClass("navigation--dark");
+    navigation.removeClass("navigation--bright");
   }
 });

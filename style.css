@@ -1,24 +1,25 @@
 * {
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
 }
+
 header {
-  width: 100%;
   height: 100vh;
+  background-color: #a79b82;
 }
 .navigation {
-  background: white;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   z-index: 100000;
-  -webkit-box-shadow: 0px 1px 6px 1px rgba(35, 47, 52, 1);
-  -moz-box-shadow: 0px 1px 6px 1px rgba(35, 47, 52, 1);
-  box-shadow: 0px 1px 6px 1px rgba(35, 47, 52, 1);
+  padding: 5px 0;
+  background: transparent;
+  transition-duration: 0.6s;
 }
-.navigation--dark {
-  background: #888;
-  scale: 0.5;
+.navigation--bright {
+  padding: 0;
+  background: white;
+  transition-duration: 0.6s;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
 }
 .navigation__logo > img {
   width: 50px;
@@ -33,12 +34,12 @@ header {
 }
 .navigation__menu > a {
   margin: 0 30px 0 15px;
-  font-size: 20px;
   color: var(--second-text-color);
   letter-spacing: 0.1px;
   font-weight: 500;
   transition: all 0.5s ease-in;
   cursor: pointer;
+  font-size: 1rem;
 }
 .navigation__menu-item:hover {
   text-decoration: none;
@@ -52,29 +53,28 @@ header {
   padding-top: 40px;
 }
 .main-text {
-  font-size: 80px;
   text-transform: uppercase;
-  letter-spacing: -1.5px;
+  letter-spacing: 1px;
   color: var(--main-text-color);
-  font-weight: 400;
-  line-height: 80px;
-  font-family: "Shrikhand", cursive;
-  margin: 25px;
+  font-weight: 600;
+  font-size: 8vw;
+  line-height: 9vw;
+  margin-left: 25px;
 }
 .second-text {
   color: var(--second-text-color);
-  font-size: 24px;
-  letter-spacing: 0px;
-  line-height: 24px;
-  font-weight: 400;
+  font-size: 1.25rem;
+  font-weight: 600;
   padding-left: 20px;
+  line-height: 1.8rem;
+  letter-spacing: 0.375rem;
 }
 .background-img {
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 100px;
+  right: 70px;
   width: auto;
-  height: 100vh;
+  height: 80vh;
 }
 .big-leaf_top {
   position: absolute;
@@ -105,12 +105,11 @@ header {
 
 .section-title {
   padding-top: 80px;
-  font-size: 48px;
   color: var(--second-text-color);
-  font-family: "Shrikhand", cursive;
-  line-height: 48px;
   font-weight: 400;
   letter-spacing: 0px;
+  font-size: 3rem;
+  letter-spacing: 1px;
 }
 .section-about {
   padding-bottom: 80px;
@@ -125,13 +124,9 @@ header {
 .description-graphic_container {
   padding: 15px 0;
   margin: 20px 0;
-  -webkit-box-shadow: 0px 3px 10px 2px #888;
-  -moz-box-shadow: 0px 3px 10px 2px #888;
-  box-shadow: 0px 3px 10px 2px #888;
 }
 .description-graphic_text {
   margin: 20px 0 0 35px;
-  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.5px;
 }
@@ -153,7 +148,6 @@ header {
 }
 .skill__desc > p {
   margin: 30px 0 80px 0;
-  font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.1px;
 }
@@ -170,4 +164,72 @@ header {
   width: 15px;
   height: 25px;
   margin-left: 30px;
+}
+@media only screen and (max-width: 576px) {
+  .main-text {
+    font-size: 14vw;
+    line-height: 16vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .main-text {
+    font-size: 12vw;
+    line-height: 13vw;
+  }
+}
+.project {
+  background: orange;
+  height: 100%;
+  padding-bottom: 120px;
+}
+.project-split {
+  background: #000;
+  margin-top: 80px;
+}
+.project-split__screen {
+  overflow: hidden;
+  transition: 1s;
+  width: 100vw;
+  height: 300px;
+  padding: 0;
+}
+.project-split__screen:hover {
+  opacity: 1;
+  padding: 0;
+}
+.project-split__screen1 {
+  background-image: url(https://images.pexels.com/photos/235986/pexels-photo-235986.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.project-split__screen1,
+.project-split__screen2,
+.project-split__screen3 {
+  opacity: 0.4;
+  background-size: cover;
+}
+.project-split__screen2 {
+  background-image: url(https://images.pexels.com/photos/1531677/pexels-photo-1531677.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.project-split__screen3 {
+  background-image: url(https://images.pexels.com/photos/364096/pexels-photo-364096.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+}
+.project-split__content {
+  width: 100%;
+  padding: 0;
+  height: auto;
+  background: #fff;
+  padding: 40px;
+  transform: translateX(100%);
+  transition: 0.5s;
+  text-align: center;
+  opacity: 0.7;
+  margin-right: -15px;
+}
+.project-split .project-split__screen:hover .project-split__content {
+  transform: translateX(0);
+}
+.project-split__content h2 {
+  color: #000;
+}
+.project-split__content p {
+  color: #000;
 }
