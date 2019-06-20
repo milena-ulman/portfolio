@@ -4,14 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="colors.css" />
-    <link rel="stylesheet" href="global.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
     <link
       href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap"
       rel="stylesheet"
@@ -22,6 +14,14 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="colors.css" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="style.css" />
 
     <title>Milena Ulman Portfolio</title>
   </head>
@@ -141,11 +141,7 @@
     </header>
     <div id="mu-about" class="section-about">
       <h3 class="section-title text-center">About me</h3>
-      <hr />
-      <img
-        src="bg_part.svg"
-        class="d-none d-md-block big-stain-about absolute"
-      />
+    
       <img class="small-stain-about absolute" src="down-svg.svg" />
       <div class="description-graphic">
         <div class="container">
@@ -223,11 +219,7 @@
     </div>
     <div id="mu-skills" class="section-skills">
       <h1 class="section-title text-center">My skills</h1>
-      <img
-        src="bg_part2.svg"
-        class="d-none d-md-block big-stain-about absolute"
-      />
-      <img class="small-stain-about absolute" src="down-svg.svg" />
+      <img class="small-stain-skills absolute" src="down-svg.svg" />
       <div class="container skills">
         <div class="row">
           <div
@@ -414,15 +406,83 @@
         </div>
       </div>
     </section>
-    <section id="mu-hire" class="scetion-hire">
+    <section id="mu-hire" class="section-hire">
+        <h2 class="container-hire_text text-center section-title">Hire me</h2>
+      <div class="d-block d-md-flex">
+        
       <div class="container-hire col-12 col-md-6">
-        <h2 class="container-hire_text">Hire me</h2>
-        <form class="form">
-         <div class="form-input">
+      
+        <form class="container col-12 col-sm-8 col-md-10 col-lg-8  form">
+          <div class="form-group col-12">
             <label for="Email">Email</label>
-            <input type="text" id="Email" class="form-imput_text" placeholder="Enter your email">
-         </div>
+            <input
+              type="text"
+              class="form-control"
+              id="Email"
+              placeholder="Enter you email"
+              required
+            />
+          </div>
+          <div class="form-group col-12">
+            <label for="Message">Message</label>
+            <textarea
+              class="form-control"
+              id="Message"
+              rows="3"
+              placeholder="Enter your message..."
+              required
+            ></textarea>
+            <button type="button" class="form-button col-12">
+              Send Message
+            </button>
+          </div>
         </form>
+      </div>
+      <div class="information col-12 col-md-6 d-flex justify-content-center align-items-center">
+        <div class="container information-description col-12 col-sm-12">
+          <div class="d-flex flex-column">
+            <div class="information-description-container d-flex align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="svg-inf" width="40.624" height="40.624" viewBox="0 0 10.748 10.748">
+                  <g transform="translate(-30.616 -104.067)">
+                    <circle r="5.374" cy="109.441" cx="35.99" fill="#ff5a4a" paint-order="markers fill stroke"/>
+                    <circle r="4.242" cy="109.441" cx="35.99" fill="#ff6f61" paint-order="markers fill stroke"/>
+                    <g transform="translate(-.117 .26)" fill="#fff">
+                      <path paint-order="markers fill stroke" d="M35.559 108.346h1.096v3.4h-1.096z"/>
+                      <circle cx="36.107" cy="107.252" r=".635" paint-order="markers fill stroke"/>
+                    </g>
+                  </g>
+                </svg>
+          <p class="information-description-text">If you need svg icons, logo etc.</p>
+          </div>
+          <div class="information-description-container d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="svg-inf" width="40.624" height="40.624" viewBox="0 0 10.748 10.748">
+                <g transform="translate(-30.616 -104.067)">
+                  <circle r="5.374" cy="109.441" cx="35.99" fill="#ff5a4a" paint-order="markers fill stroke"/>
+                  <circle r="4.242" cy="109.441" cx="35.99" fill="#ff6f61" paint-order="markers fill stroke"/>
+                  <g transform="translate(-.117 .26)" fill="#fff">
+                    <path paint-order="markers fill stroke" d="M35.559 108.346h1.096v3.4h-1.096z"/>
+                    <circle cx="36.107" cy="107.252" r=".635" paint-order="markers fill stroke"/>
+                  </g>
+                </g>
+              </svg>
+          <p class="information-description-text">If you need design (UX).</p>
+          </div>
+          <div class="information-description-container d-flex align-items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="svg-inf" width="40.624" height="40.624" viewBox="0 0 10.748 10.748">
+                <g transform="translate(-30.616 -104.067)">
+                  <circle r="5.374" cy="109.441" cx="35.99" fill="#ff5a4a" paint-order="markers fill stroke"/>
+                  <circle r="4.242" cy="109.441" cx="35.99" fill="#ff6f61" paint-order="markers fill stroke"/>
+                  <g transform="translate(-.117 .26)" fill="#fff">
+                    <path paint-order="markers fill stroke" d="M35.559 108.346h1.096v3.4h-1.096z"/>
+                    <circle cx="36.107" cy="107.252" r=".635" paint-order="markers fill stroke"/>
+                  </g>
+                </g>
+              </svg>
+              <p class="information-description-text">If you need nedd website (UI).</p>
+              </div>
+          </div>
+          </div>
+      </div>
       </div>
     </section>
     <footer class="footer">
