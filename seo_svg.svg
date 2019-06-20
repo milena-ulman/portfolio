@@ -1,29 +1,128 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Warstwa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="137.8px" height="136.1px" viewBox="0 0 137.8 136.1" style="enable-background:new 0 0 137.8 136.1;" xml:space="preserve"
-	>
-<style type="text/css">
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Warstwa_1"
+   x="0px"
+   y="0px"
+   width="137.8px"
+   height="136.1px"
+   viewBox="0 0 137.8 136.1"
+   style="enable-background:new 0 0 137.8 136.1;"
+   xml:space="preserve"
+   sodipodi:docname="seo_svg.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata35"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs33">
+	
+	
+	
+	
+</defs><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   id="namedview31"
+   showgrid="false"
+   inkscape:zoom="6.936076"
+   inkscape:cx="49.283011"
+   inkscape:cy="47.738296"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Warstwa_1" />
+<style
+   type="text/css"
+   id="style2">
 	.st0{fill:#4C4554;}
 	.st1{fill:#FFFFFF;}
 	.st2{fill:#9E9E9E;}
 	.st3{fill:#737373;}
 	.st4{fill:#84C493;}
 </style>
-<polygon class="st0" points="25.7,125.8 40.6,135.7 103.1,10 88.3,0 "/>
-<polygon class="st0" points="103.5,126.1 88.6,136.1 26,10.3 40.9,0.3 "/>
-<rect x="57.4" y="4.9" transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 134.8685 7.563686e-02)" class="st0" width="19.9" height="125.1"/>
-<ellipse class="st0" cx="64.8" cy="68.2" rx="48.2" ry="55.9"/>
-<g>
-	<path class="st0" d="M16.1,95L0.8,107.9L10.9,124l15.2-12.9C22,106.5,18.6,101.1,16.1,95z"/>
+<polygon
+   class="st0"
+   points="25.7,125.8 40.6,135.7 103.1,10 88.3,0 "
+   id="polygon4"
+   style="fill:#4a4843;fill-opacity:1" />
+<polygon
+   class="st0"
+   points="103.5,126.1 88.6,136.1 26,10.3 40.9,0.3 "
+   id="polygon6"
+   style="fill:#4a4843;fill-opacity:1" />
+<rect
+   x="57.4"
+   y="4.9"
+   transform="matrix(-1.836970e-16 1 -1 -1.836970e-16 134.8685 7.563686e-02)"
+   class="st0"
+   width="19.9"
+   height="125.1"
+   id="rect8"
+   style="fill:#4a4843;fill-opacity:1" />
+<ellipse
+   class="st0"
+   cx="64.8"
+   cy="68.2"
+   rx="48.2"
+   ry="55.9"
+   id="ellipse10"
+   style="fill:#4a4843;fill-opacity:1" />
+<g
+   id="g14">
+	<path
+   class="st0"
+   d="M16.1,95L0.8,107.9L10.9,124l15.2-12.9C22,106.5,18.6,101.1,16.1,95z"
+   id="path12"
+   style="fill:#4a4843;fill-opacity:1" />
 </g>
-<ellipse class="st1" cx="64.8" cy="68.2" rx="34.9" ry="40.5"/>
-<g>
-	<path class="st1" d="M98.1,68.2c0-19.2-14.9-34.7-33.4-34.7c-18.4,0-33.4,15.5-33.4,34.7c0,13.6,7.5,25.4,18.5,31.1V66.1h9.9V54.3
-		h9.9v-8.6h9.9v53.5C90.6,93.6,98.1,81.8,98.1,68.2z"/>
-	<path class="st2" d="M59.8,66.1h-9.9v33.2c3.1,1.6,6.4,2.7,9.9,3.3V66.1z"/>
-	<path class="st3" d="M64.8,102.9c1.7,0,3.3-0.1,5-0.4V54.3h-9.9v11.8v36.4C61.4,102.8,63.1,102.9,64.8,102.9z"/>
-	<path class="st4" d="M69.7,45.7v8.6v48.2c3.5-0.5,6.9-1.7,9.9-3.3V45.7H69.7z"/>
-</g>
-<path class="st0" d="M136.9,5.7l-29.6,2.8l5.9,9.1l-7.8,8.3c3.8,4.2,7.1,9.2,9.6,14.8l7.8-8.3l5.5,8.5L136.9,5.7z"/>
+<ellipse
+   class="st1"
+   cx="64.8"
+   cy="68.2"
+   rx="34.9"
+   ry="40.5"
+   id="ellipse16" />
+<path
+   style="fill:#ffffff"
+   inkscape:connector-curvature="0"
+   id="path18"
+   d="M 98.1,68.2 C 98.1,49 83.2,33.5 64.7,33.5 46.3,33.5 31.3,49 31.3,68.2 c 0,13.6 7.5,25.4 18.5,31.1 V 66.1 h 9.9 V 54.3 h 9.9 v -8.6 h 9.9 v 53.5 c 11.1,-5.6 18.6,-17.4 18.6,-31 z"
+   class="st1" /><path
+   inkscape:connector-curvature="0"
+   style="fill:#4d4d4d"
+   id="path20"
+   d="M 59.9,66 H 50 v 33.2 c 3.1,1.6 6.4,2.7 9.9,3.3 z"
+   class="st2" /><path
+   inkscape:connector-curvature="0"
+   style="fill:#333333"
+   id="path22"
+   d="m 64.8,102.9 c 1.7,0 3.3,-0.1 5,-0.4 V 54.3 h -9.9 v 11.8 36.4 c 1.5,0.3 3.2,0.4 4.9,0.4 z"
+   class="st3" /><path
+   inkscape:connector-curvature="0"
+   style="fill:#184a45;fill-opacity:1"
+   id="path24"
+   d="m 69.8,45.7 v 8.6 48.2 c 3.5,-0.5 6.9,-1.7 9.9,-3.3 V 45.7 Z"
+   class="st4" />
+<path
+   class="st0"
+   d="M136.9,5.7l-29.6,2.8l5.9,9.1l-7.8,8.3c3.8,4.2,7.1,9.2,9.6,14.8l7.8-8.3l5.5,8.5L136.9,5.7z"
+   id="path28"
+   style="fill:#4a4843;fill-opacity:1" />
 </svg>
