@@ -19,6 +19,7 @@ header {
 .navigation-logo {
   width: 50px;
   height: 30px;
+  margin-left: 30px;
   transition: fill 0.3s ease-in-out;
 }
 .navigation-logo:hover .logo1 {
