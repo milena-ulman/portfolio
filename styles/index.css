@@ -35,9 +35,10 @@ header {
   color: var(--dark-blue);
   transition: color 0.15s ease-in;
 }
-.navigation__menu-item:hover {
+.navigation__menu-item:hover,
+.navigation-moblie-text:hover {
   text-decoration: none;
-  color:var(--bright-blue);
+  color: var(--bright-blue);
 }
 .container-text {
   height: 100%;
@@ -46,7 +47,7 @@ header {
   height: 90vh;
   z-index: 2;
   position: relative;
-  animation: bounceInLeft 1s ease-in;
+  animation: bounceInLeft 1.5s ease-in;
 }
 .main-text {
   text-transform: uppercase;
@@ -122,12 +123,11 @@ header {
   margin-top: 30px;
 }
 .description-graphic_text {
- 
   margin: 20px 0 0 35px;
   position: relative;
   z-index: 2;
   font-family: arial !important;
-  color: var(--white);
+  color: #7a89ab;
   line-height: 1.4rem;
 }
 .description_img {
@@ -293,6 +293,7 @@ label {
 }
 .information-description-container {
   padding: 20px 0;
+  line-height: 30px;
 }
 .information-description-text {
   margin-left: 40px;
@@ -324,8 +325,7 @@ label {
 }
 .footer-copyright-desc {
   margin-top: 20px;
-  color: #777;
-  font-size: 0.6rem;
+  color: var(--white);
 }
 .github,
 .linkedin {
@@ -429,13 +429,10 @@ label {
   height: 100%;
 }
 .navigation-moblie-text {
-  color: #48998c;
+  color: var(--dark-blue);
   font-size: 1.5rem;
   text-decoration: none;
   transition: color 0.3s ease-in;
-}
-.navigation-moblie-text:hover {
-  color: #1c7468;
 }
 .navigation-mobile-link > a {
   text-decoration: none;
@@ -443,15 +440,7 @@ label {
 .disable-scroll {
   overflow: hidden;
 }
-#loader {
-  background: white;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  position: absolute;
-  z-index: 100000;
-}
-.loader {
+.app-loader {
   border: 10px solid;
   width: 100px;
   height: 100px;
@@ -476,4 +465,29 @@ label {
 }
 .pointer {
   cursor: pointer;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-2000px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(30px);
+  }
+  80% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.app {
+  display: none;
 }

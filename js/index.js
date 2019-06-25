@@ -1,11 +1,3 @@
-$(document).ready(function() {
-  window.onload = function() {
-    $("#loader").fadeOut(100, function() {
-      $("#loader").remove();
-    });
-  };
-});
-
 const navigation = $(".navigation");
 let isMobileMenuOpen = false;
 
@@ -15,6 +7,12 @@ function toggleMobileMenu() {
   $(".navigation-toggle").toggleClass("open");
   $("html").toggleClass("disable-scroll");
 }
+
+// Hide loader when document is ready and fadeIn entire application
+$(document).ready(function() {
+  $("#mu_app-loader").fadeOut();
+  $("#mu_app").fadeIn();
+});
 
 // Change navigation class if user scrolls down (make it brighter)
 $(window).scroll(function() {
