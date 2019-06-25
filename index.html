@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
     <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css?family=Shrikhand&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
-    />
+  
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
@@ -26,21 +27,24 @@
     <title>Milena Ulman Portfolio</title>
   </head>
   <body>
+    <div id="loader1">
+        <div class="loader1"></div>
+    </div>
     <header class="main-section">
       <nav class="navigation d-flex justify-content-between align-items-center">
-        <div class="navigation__logo">
-          <img src="logo.svg" />
+        <div>
+          <svg class="navigation-logo pointer" xmlns="http://www.w3.org/2000/svg" width="405.543" height="392.995" viewbox="0 0 107.3 103.98"><path class="logo1" d="M68.765.001a.03.03 0 0 0-.019.015C63.238 14.74 58.254 29.2 54.297 40.869 49.971 29.451 44.56 15.282 38.57.39a.034.034 0 0 0-.015-.011V.363H0V103.98h38.554V44.962c1.716 1.385 7.697 6.221 11.278 9.12-2.228 6.598-3.717 10.92-4.084 11.37 3.459-2.796 6.393-5.178 9.056-7.349 3.43 2.775 4.051 3.28 9.08 7.342-.397-.472-2-4.572-4.482-11.1 4.154-3.41 7.217-5.961 9.344-7.772v57.013c0 .026.02.047.046.047h38.461c.026 0 .047-.021.047-.047V.062a.047.047 0 0 0-.047-.046H68.808l-.02-.012a.029.029 0 0 0-.023-.003zm-4.882 65.444c.026.03.049.052.065.052l-.065-.052zm-18.135.006l-.057.046c.015 0 .034-.019.057-.046z" fill="#344B47" paint-order="markers fill stroke"/></svg>
         </div>
         <!-- Desktop navigation-->
         <div class="navigation__menu d-none d-sm-block">
-          <a href="#mu-about" class="navigation__menu-item">About me</a>
-          <a href="#mu-skills" class="navigation__menu-item">Skills</a>
-          <a href="#mu-projects" class="navigation__menu-item">Projects</a>
-          <a href="#mu-contact" class="navigation__menu-item">Contact</a>
+          <a href="#mu-about" class="navigation__menu-item pointer subtitle">About me</a>
+          <a href="#mu-skills" class="navigation__menu-item pointer subtitle">Skills</a>
+          <a href="#mu-projects" class="navigation__menu-item pointer subtitle">Projects</a>
+          <a href="#mu-contact" class="navigation__menu-item pointer subtitle">Contact</a>
         </div>
          <!-- Mobile navigation toggle -->
-        <div class="navigation__menu-toggle d-block d-sm-none">
-          <div class="navigation-toggle">
+        <div class="navigation__menu-toggle pointer d-block d-sm-none">
+          <div class="navigation-toggle pointer">
             <span></span>
             <span></span>
             <span></span>
@@ -50,16 +54,16 @@
         <div class="navigation-mobile d-sm-none" id="nav-mobile">
           <div class="navigation-mobile-container d-flex align-items-center flex-column ">
           <div id="mu-about-link" class="navigation-mobile-link">
-          <a href="#mu-about" class="d-block text-center">About me</a>
+          <a href="#mu-about" class="d-block text-center"><p class="navigation-moblie-text">About me</p></a>
         </div>
         <div id="mu-skills-link" class="navigation-mobile-link">
-          <a href="#mu-skills" class="d-block text-center">Skills</a>
+          <a href="#mu-skills" class="d-block text-center"><p class="navigation-moblie-text">Skills</p></a>
         </div>
           <div id="mu-projects-link" class="navigation-mobile-link">
-          <a href="#mu-projects" class="d-block text-center">Projects</a>
+          <a href="#mu-projects" class="d-block text-center"><p class="navigation-moblie-text">Projects</p></a>
         </div>
           <div id="mu-contact-link" class="navigation-mobile-link">
-          <a href="#mu-contact" class="d-block text-center">Contact</a>
+          <a href="#mu-contact" class="d-block text-center"><p class="navigation-moblie-text">Contact</p></a>
         </div>
         </div>
         </div>
@@ -150,14 +154,14 @@
           class="row d-flex flex-column align-items-start justify-content-center col-12"
         >
           <h3 class="second-text">Milena Ulman</h3>
-          <h2 class="main-text">UX/UI</h2>
-          <h2 class="main-text">Designer</h2>
+          <h1 class="main-text">UX/UI</h1>
+          <h1 class="main-text">Designer</h1>
           <h3 class="second-text">
             Creating things with passion :)
           </h3>
         </div>
       </div>
-      <img src="bg2v.svg" class="d-none d-md-block background-img absolute" />
+      <img src="bg2v.svg" class="d-none d-lg-block background-img absolute" />
       <img class="small-stain-header absolute" src="down-svg.svg" />
     </header>
     <div id="mu-about" class="section-about">
@@ -168,67 +172,67 @@
         <div class="container">
           <div class="row">
             <div
-              class="description-graphic_container col-12 col-sm-6 col-md-4 offset- justify-content-center align-items-center flex-column d-flex "
+              class="description-graphic_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 justify-content-center align-items-center flex-column d-flex "
             >
               <img src="learning_mu.svg" class="description_img" />
               <div>
-                <p class="description-graphic_text">
+                <p class="description-graphic_text subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </div>
             <div
-              class="description-graphic_container col-12 col-sm-6 col-md-4 justify-content-center align-items-center flex-column d-flex "
+              class="description-graphic_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 justify-content-center align-items-center flex-column d-flex "
             >
               <img src="creating_mu.svg" class="description_img" />
               <div>
-                <p class="description-graphic_text">
+                <p class="description-graphic_text subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </div>
             <div
-              class="description-graphic_container col-12 col-sm-6 col-md-4 justify-content-center align-items-center flex-column d-flex "
+              class="description-graphic_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 justify-content-center align-items-center flex-column d-flex "
             >
               <img src="listening_mu.svg" class="description_img" />
               <div>
-                <p class="description-graphic_text">
+                <p class="description-graphic_text subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </div>
             <div
-              class="description-graphic_container col-12 col-sm-6 col-md-4 justify-content-center align-items-center flex-column d-flex "
+              class="description-graphic_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 justify-content-center align-items-center flex-column d-flex "
             >
               <img src="passion_mu.svg" class="description_img" />
               <div>
-                <p class="description-graphic_text">
+                <p class="description-graphic_text subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </div>
             <div
-              class="description-graphic_container col-12 col-sm-6 col-md-4 justify-content-center align-items-center flex-column d-flex "
+              class="description-graphic_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 justify-content-center align-items-center flex-column d-flex "
             >
               <img src="amibition_mu.svg" class="description_img" />
               <div>
-                <p class="description-graphic_text">
+                <p class="description-graphic_text subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </div>
             <div
-              class="description-graphic_container col-12 col-sm-6 col-md-4 justify-content-center align-items-center flex-column d-flex "
+              class="description-graphic_container col-10 offset-1 col-sm-6 offset-sm-0 col-md-4 justify-content-center align-items-center flex-column d-flex "
             >
               <img src="kindness_mu.svg" class="description_img" />
 
               <div>
-                <p class="description-graphic_text">
+                <p class="description-graphic_text subtitle">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -249,7 +253,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="html5_svg.svg" />
-                <p class="text-center">HTML</p>
+                <p class="text-center subtitle">HTML</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_bright_svg.svg" />
@@ -266,7 +270,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="css3_svg.svg" />
-                <p class="text-center">CSS</p>
+                <p class="text-center subtitle">CSS</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_bright_svg.svg" />
@@ -283,7 +287,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="js_svg.svg" />
-                <p class="text-center">JavaScript</p>
+                <p class="text-center subtitle">JavaScript</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_dark_svg.svg" />
@@ -300,7 +304,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="jquery_svg.svg" />
-                <p class="text-center">jQuery</p>
+                <p class="text-center subtitle">jQuery</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_dark_svg.svg" />
@@ -317,7 +321,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="bootstrap_svg.svg" />
-                <p class="text-center">Bootstrap</p>
+                <p class="text-center subtitle">Bootstrap</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_bright_svg.svg" />
@@ -334,7 +338,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="wordpress_svg.svg" />
-                <p class="text-center">WordPress</p>
+                <p class="text-center subtitle">WordPress</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_dark_svg.svg" />
@@ -351,7 +355,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="git_svg.svg" />
-                <p class="text-center">Git</p>
+                <p class="text-center subtitle">Git</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_dark_svg.svg" />
@@ -368,7 +372,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="rwd_svg.svg" />
-                <p class="text-center">RWD</p>
+                <p class="text-center subtitle">RWD</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_dark_svg.svg" />
@@ -385,7 +389,7 @@
             <div class="d-flex skill">
               <div class="skill__desc">
                 <img src="seo_svg.svg" />
-                <p class="text-center">SEO</p>
+                <p class="text-center subtitle">SEO</p>
               </div>
               <div class="d-flex flex-column skill__rate">
                 <img src="leaf_dark_svg.svg" />
@@ -404,24 +408,32 @@
       <div class="project-split container-fluid">
         <div class="row">
           <div
-            class="project-split__screen project-split__screen1 flex-grow-2 d-flex justify-content-end align-items-end col-md-4"
-          >
-            <div class="project-split__content">
-              <h2>Lorem ipsum</h2>
+            class="project-split__screen project-split__screen1  col-md-4">
+            <div class="d-flex justify-content-center">
+          <h1 class="project-split-text absolute">New project</h1>
+          </div>
+            <div class="project-split__content absolute">
+              <h2>Coming soon</h2>
             </div>
           </div>
           <div
-            class="project-split__screen project-split__screen2 flex-grow-2 d-flex justify-content-end align-items-end col-md-4"
+            class="project-split__screen project-split__screen2  col-md-4"
           >
-            <div class="project-split__content">
-              <h2>Lorem ipsum</h2>
+          <div class="d-flex justify-content-center">
+            <h1 class="project-split-text absolute">New project</h1>
+            </div>
+            <div class="project-split__content absolute">
+              <h2>Coming soon</h2>
             </div>
           </div>
           <div
-            class="project-split__screen project-split__screen3 flex-grow-2 d-flex justify-content-end align-items-end col-md-4"
+            class="project-split__screen project-split__screen3  col-md-4"
           >
-            <div class="project-split__content">
-              <h2>Lorem ipsum</h2>
+          <div class="d-flex justify-content-center">
+            <h1 class="project-split-text absolute">New project</h1>
+            </div>
+            <div class="project-split__content absolute">
+              <h2>Coming soon</h2>
             </div>
           </div>
         </div>
@@ -459,7 +471,7 @@
           </div>
         </form>
       </div>
-      <div class="information col-12 col-md-6 d-flex justify-content-center align-items-center">
+      <div class="information col-12 col-sm-8 offset-sm-2 col-md-6 offset-md-0 d-flex justify-content-center align-items-center">
         <div class="container information-description col-12 col-sm-12">
           <div class="d-flex flex-column">
             <div class="information-description-container d-flex align-items-center">
@@ -507,8 +519,29 @@
       </div>
     </section>
     <footer class="footer">
-      <div class="footer-nav d-flex justify-content-center">
-        <img src="logo.svg" class="footer-logo" />
+      <div class="footer-container d-flex align-items-center justify-content-between">
+      <div>
+        <svg class="navigation-logo pointer" xmlns="http://www.w3.org/2000/svg" width="405.543" height="392.995" viewbox="0 0 107.3 103.98"><path class="logo1" d="M68.765.001a.03.03 0 0 0-.019.015C63.238 14.74 58.254 29.2 54.297 40.869 49.971 29.451 44.56 15.282 38.57.39a.034.034 0 0 0-.015-.011V.363H0V103.98h38.554V44.962c1.716 1.385 7.697 6.221 11.278 9.12-2.228 6.598-3.717 10.92-4.084 11.37 3.459-2.796 6.393-5.178 9.056-7.349 3.43 2.775 4.051 3.28 9.08 7.342-.397-.472-2-4.572-4.482-11.1 4.154-3.41 7.217-5.961 9.344-7.772v57.013c0 .026.02.047.046.047h38.461c.026 0 .047-.021.047-.047V.062a.047.047 0 0 0-.047-.046H68.808l-.02-.012a.029.029 0 0 0-.023-.003zm-4.882 65.444c.026.03.049.052.065.052l-.065-.052zm-18.135.006l-.057.046c.015 0 .034-.019.057-.046z" fill="#344B47" paint-order="markers fill stroke"/></svg>
+      </div>
+      <div class="footer-love d-flex align-items-center">
+        <img src="heart.svg"/>
+        <p class="footer-love-text">Made with love</p>
+      </div>
+      <div class="footer-social ">
+       
+        <div class="footer-social-icon d-flex">
+          <a target="_blank" href="https://github.com/milena-ulman">
+            <svg class="github pointer" width="40" height="50" viewBox="0 0 144.387 144.387"><g transform="translate(234.345 -99.696)"><circle cx="-162.152" cy="171.89" r="72.193" fill="#444" paint-order="markers fill stroke"/><path d="M-203.941 130.317s1.664 9.664 7.474 17.292c-4.053 4.669-5.88 14.794-5.88 25.77 0 10.976 12.336 22.682 28.466 24.6 0 0-3.094 2.69-4.543 11.13-13.394 17.233-21.248-6.47-32.658-5.694-.614.088-3.73 1.977-3.202 2.998.496.96 4.563 1.086 6.218 2.186 2.473 1.643 6.256 5.817 7.755 7.413 10.987 10.025 13.948 5.721 21.887 2.596l-.257 23.478a72.193 72.193 0 0 0 16.53 1.997 72.193 72.193 0 0 0 20.792-3.122c-.716-13.903 1.302-37.613-4.282-42.845l-.064-.087c16.336-1.763 28.885-13.55 28.885-24.275 0-10.724-2.504-20.315-5.845-24.711 5.506-7.255 7.968-18.726 7.968-18.726s-12.312 5.98-19.22 9.628c-4.878-2.395-16.84-4.68-25.484-4.833-8.295-.146-20.293 2.039-24.6 3.772-5.447-2.97-19.94-8.567-19.94-8.567z" fill="#fff" paint-order="markers fill stroke"/></g></svg></a>
+            <svg class="linkedin pointer" width="40" height="50" viewBox="0 0 34.352 34.352"><g transform="translate(151.483 -154.183)"><circle cx="-134.307" cy="171.359" r="17.176" fill="#444" paint-order="markers fill stroke"/><text style="line-height:5.25;-inkscape-font-specification:Arial" x="-143.738" y="178.769" font-weight="400" font-size="25.4" font-family="Arial" letter-spacing="0" word-spacing="0" fill="#fff" stroke-width=".574"><tspan x="-143.738" y="178.769" style="-inkscape-font-specification:Arial">in</tspan></text></g></svg>
+        </div>
+      </div>
+      </div>
+      <div class="footer-copyright text-center">
+        <div class="d-flex justify-content-center">
+        <p class="footer-copyright-text">© Copyright 2019  .  All Rights Reserved</p>
+      
+        </div>
+        <p class="footer-copyright-desc"> All graphic are made by me, some are inspired by original version</p>
       </div>
     </footer>
     <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.0.min.js"></script>

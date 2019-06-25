@@ -1,3 +1,11 @@
+$(document).ready(function() {
+  window.onload = function() {
+    $("#loader").fadeOut(100, function() {
+      $("#loader").remove();
+    });
+  };
+});
+
 const navigation = $(".navigation");
 let isMobileMenuOpen = false;
 
@@ -35,3 +43,8 @@ $("#mu-about-link, #mu-skills-link, #mu-projects-link, #mu-contact-link").click(
     toggleMobileMenu();
   }
 );
+const navigationLogo = $(".navigation-logo");
+//If user click on page logo, page reload
+$(navigationLogo).click(function() {
+  window.location.reload();
+});
