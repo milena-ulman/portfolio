@@ -19,7 +19,6 @@ header {
 .navigation-logo {
   width: 50px;
   height: 30px;
-  margin-left: 30px;
   transition: fill 0.3s ease-in-out;
 }
 .navigation-logo:hover .logo1 {
@@ -75,6 +74,10 @@ header {
   right: 0;
   height: 90vh;
   z-index: 1;
+}
+.small-stain-header {
+  z-index: 1;
+  margin-top: -140px;
 }
 .small-stain-about {
   right: 0;
@@ -161,6 +164,12 @@ header {
   width: 15px;
   height: 25px;
   margin-left: 30px;
+}
+@media only screen and (min-width: 400px) {
+  .footer-social-icon {
+    display: flex !important;
+    flex-direction: row !important;
+  }
 }
 @media only screen and (max-width: 576px) {
   .navigtaion {
